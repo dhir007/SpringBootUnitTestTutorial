@@ -52,13 +52,12 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			   // integrate maven emma plugin to project site 
-		      <plugin>
-			<groupId>org.codehaus.mojo</groupId>
-			<artifactId>emma-maven-plugin</artifactId>
-			<version>1.0-alpha-3</version>
-			<inherited>true</inherited>
-		      </plugin>
+	           	<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>emma-maven-plugin</artifactId>
+				<version>1.0-alpha-3</version>
+				<inherited>true</inherited>
+		        </plugin>
 		</plugins>
 	</build>
 
